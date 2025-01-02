@@ -18,13 +18,13 @@
             <version>${project.version}</version>
         </dependency>
         <!-- To use the "attached test JAR" from the "model" module -->
-<!--        <dependency>-->
-<!--            <groupId>com.sap</groupId>-->
-<!--            <artifactId>application-business-rules</artifactId>-->
-<!--            <version>${project.version}</version>-->
-<!--            <classifier>tests</classifier>-->
-<!--            <type>test-jar</type>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.sap</groupId>
+            <artifactId>application-business-rules</artifactId>
+            <version>${project.version}</version>
+            <classifier>tests</classifier>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
