@@ -7,13 +7,14 @@
         <groupId>com.sap</groupId>
         <artifactId>clean-architecture-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>drivers</artifactId>
     <dependencies>
         <!-- Internal -->
         <dependency>
-            <groupId>eu.happycoders.shop</groupId>
-            <artifactId>application</artifactId>
+            <groupId>com.sap</groupId>
+            <artifactId>interface-adapters</artifactId>
             <version>${project.version}</version>
         </dependency>
 
@@ -71,8 +72,8 @@
 
         <!-- To use the "attached test JAR" from the "model" module -->
         <dependency>
-            <groupId>eu.happycoders.shop</groupId>
-            <artifactId>model</artifactId>
+            <groupId>com.sap</groupId>
+            <artifactId>application-business-rules</artifactId>
             <version>${project.version}</version>
             <classifier>tests</classifier>
             <type>test-jar</type>
